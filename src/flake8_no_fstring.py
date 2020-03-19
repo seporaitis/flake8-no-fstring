@@ -7,14 +7,6 @@ else:
     from importlib_metadata import version
 
 
-if sys.version_info >= (3, 6):
-    AnnAssign = ast.AnnAssign
-else:
-
-    class AnnAssign:
-        pass
-
-
 class NoFstringChecker(object):
     """
     A flake8 plugin to ban f-strings.
