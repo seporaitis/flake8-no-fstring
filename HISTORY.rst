@@ -2,6 +2,11 @@
 History
 =======
 
+1.0.3 (2020-03-20)
+------------------
+
+* Remove redundant code (`PR #1 <https://github.com/seporaitis/flake8-no-fstring/pull/1>`__).
+
 1.0.2 (2020-03-20)
 ------------------
 
